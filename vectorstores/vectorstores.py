@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 files_root = os.path.normpath(
     os.path.join(
-        os.path.split(__file__),  # ./langchain-with-your-data/vectorstores
+        os.path.dirname(__file__),  # ./langchain-with-your-data/vectorstores
         os.pardir,  # ./langchain-with-your-data
         "data_docs",  # ./data_docs
     )

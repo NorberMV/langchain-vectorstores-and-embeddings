@@ -1,3 +1,4 @@
 .idea
 chroma
 *.sqlite
+__pycache__
